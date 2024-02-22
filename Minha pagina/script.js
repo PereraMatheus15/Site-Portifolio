@@ -1,0 +1,1 @@
+window.sr=ScrollReveal({reset:!0}),sr.reveal(".area-1",{duration:1e3}),sr.reveal(".area-2",{duration:2e3}),sr.reveal(".area-3",{duration:2e3}),sr.reveal(".area-4",{duration:2e3}),sr.reveal(".icon",{duration:2e3});

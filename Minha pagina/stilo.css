@@ -1,0 +1,34 @@
+/* Reset de estilos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definição de uma fonte */
+body {
+    font-family: "Bebas Neue Bold", Arial, sans-serif;
+    background-color: #292a2e;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    width: 80%; /* Largura do conteúdo principal */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    border-radius: 5px;
+}
+
+/* Estilos para o título principal */
+h1 {
+    color: #0099cc; /* Cor azul claro */
+    text-align: center; /* Centralizar o título */
+    padding: 20px 0; /* Espaçamento vertical para o título */
+}
+
+/* Estilos para o parágrafo */
+p {
+    text-align: justify; /* Justificar o texto */
+    color: #333; /* Cor do texto cinza escuro */
+}
