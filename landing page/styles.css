@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: ;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin: 20px;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

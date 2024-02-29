@@ -1,0 +1,71 @@
+/*estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+      
+}
+
+body{
+    background: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+/*estilo cabeçalho*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo img {
+    width: 150px; /* Defina o tamanho desejado para a largura */
+    height: auto; /* Mantenha a proporção da altura automaticamente */
+}
+header a{
+  color: #7d7d7d;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: .2s;
+}
+
+header a:hover{
+color: #fff;
+transform: scale(1.05);
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-ctt button{
+    padding:10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:red;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+} 
+
+
+header .btn-ctt button:hover{
+    box-shadow: 0 0 8px red;
+}
+
